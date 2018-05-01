@@ -1,3 +1,87 @@
 /*
- * Estilos de tu proyecto
+Botones, hover: #FF00BF
+Fondo de footer: #333447
+Título del formulario: #352384
+Texto del formulario: #728099
+Gradiente morado: linear-gradient(#76278F, #2B1E66);
+Montserrat.
  */
+ body {
+   background-color: linear-gradient(#76278F, #2B1E66);
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ header{
+   background-image: url("./../assets/images/hero.gif");
+   background-size: cover;
+   height: 700px;
+   width: 100%;
+ }
+
+ header img {
+   float: left;
+   height: 46px;
+   left: 10%;
+   width: 65px;
+   position: absolute;
+   top: 8%;
+ }
+
+ li {
+   color: white;
+   display: inline-block;
+   float: right;
+   margin: 2%;
+   position: relative;
+   right: 10%;
+   top: 30px;
+ }
+
+ .sing {
+   background-color: white;
+   height: 435px;
+   left: 66%;
+   position: absolute;
+   top: 20%;
+   width: 450px;
+ }
+
+ #login {
+    background-color: transparent;
+    border: 1px groove white;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 32px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    bottom: 20px;
+ }
+#second-section{
+  background-color: #76278F;
+  height: 500px;
+  margin: 0;
+}
+#second-section img, .subtitles {
+  display: inline-block;
+  height: 500px;
+  width: 397px;
+}
+
+.subtitles {
+  color: white;
+  left: 5%;
+  float: left;
+  margin: 0 5% 0 2%;
+  position: relative;
+  font-size: 1.25rem;
+}
+
+.content {
+  height: 260px;
+  width: 250px;
+  display: inline-block;
+  margin: 2% 5% 0 5%;
+}
